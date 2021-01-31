@@ -4,6 +4,7 @@ async function get(){
     console.log(data);
 
     document.querySelector("#content").innerHTML = data[0].name
+    document.querySelector("#nickname").innerHTML = data[0].nickname
     document.querySelector("#image").src = data[0].img
 
 
